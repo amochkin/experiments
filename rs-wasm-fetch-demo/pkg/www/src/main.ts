@@ -15,7 +15,6 @@ app.innerHTML = `
   </div>
 `
 
-// Move WASM fetch logic from index.html into here
 ;(async () => {
   try {
     const { default: init, fetch_json, post_json } = await import('../../bin/pkg/rs_wasm_fetch_demo_bin.js')

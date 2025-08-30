@@ -25,7 +25,7 @@ npm run dev
 ```
 Then open the printed local URL (typically http://localhost:5173). Click "Fetch JSON" to see the WASM-powered request in action.
 
-Note: The WASM initialization and click handler live in `pkg/www/src/main.ts` (moved from inline `<script>` in `index.html`). `vite.config.js` is configured to allow serving files from `../bin/pkg` so the generated WASM and JS can be imported by the web app.
+Note: The WASM initialization and click handler live in `pkg/www/src/main.ts`. `vite.config.js` is configured to allow serving files from `../bin/pkg` so the generated WASM and JS can be imported by the web app.
 
 ## Alternative: Serve a static build
 If you prefer a static server without Vite:
