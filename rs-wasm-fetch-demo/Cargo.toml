@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "pkg/bin",
+]
+resolver = "2"
+description = "WASM fetch usage demo"
+repository = "amochkin/experiments"
+license = "BSD-3-Clause"

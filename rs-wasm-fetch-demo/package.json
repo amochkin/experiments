@@ -1,0 +1,14 @@
+{
+  "name": "rs-wasm-fetch-demo",
+  "version": "1.0.0",
+  "description": "cargo install wasm-pack",
+  "main": "index.js",
+  "scripts": {
+    "build:wasm": "cd pkg/bin && wasm-pack build --target web",
+    "build:www": "cd pkg/www && npm run build",
+    "build": "npm run build:wasm && npm run build:www",
+    "start": "cd pkg/www && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
